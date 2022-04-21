@@ -1,0 +1,124 @@
+/* ===  Resete CSS ===================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+/* ===== variaveis  */
+:root {
+
+  --title-font:'Manrope', sans-serif;
+ 
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+  
+  
+  }
+
+
+body {
+  background-color: var(--backgrond);
+  color: var(--text-color);
+}
+/* ======= Header ========*/
+
+.container {
+  margin: 2.31rem 1.625rem 1.60rem ;
+
+}
+
+header {
+
+  border-bottom: 1px solid var(--border);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img.logo {
+  width: 10.68rem;
+  height: auto;
+}
+
+nav img.menu {
+  width: 2rem;
+  height: auto;
+}
+section.title {
+  display: flex;
+  justify-content: center;
+  margin: 5.5rem 1.68rem;
+}
+section h1 {
+ font-family: var(--title-font);
+ font-weight: 600 bold;
+ font-size: 1.85rem;
+ width: 23.13rem;
+ text-align: center;
+}
+section.button {
+  display: flex;
+  justify-content: center;
+  margin: 5.5rem 1.68rem 6.125rem;
+}
+section.button a{
+  border: 1px solid #8257e5;
+  border-radius: 6px;
+  padding: 0.6rem 1.85rem;
+  color: white;
+  font-family: var(--title-font);
+  font-weight: 800;
+  font-size: 15px;
+ }
+ section.button img{
+    width: 0.44rem;
+    margin-left: 0.6rem;
+ }
+ section.container {
+   display: grid;
+   justify-content: center;
+   margin: 5.5rem 1.68rem 6.125rem;
+
+ }
+
+ section.container h1.t1 {
+
+  font-family: var(--title-font);
+  font-size: 3.12rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ section.container h1.t2 {
+
+  font-family: var(--title-font);
+  font-size: 3.12rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--button);
+ }
+
+ section.cups img {
+ }
+
+ footer img {
+ }
+
+
