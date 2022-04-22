@@ -35,8 +35,16 @@ img {
 
 
 body {
-  background-color: var(--backgrond);
+  font-family: Manrope;
+  font-weight: 400;
   color: var(--text-color);
+  min-height: 100vh;
+  background-color: var(--backgrond);
+  background-image: url("../assets/blur-mobile.png");
+  background-position: bottom;
+  background-size: 100% 250px;
+  background-repeat: no-repeat;
+  
 }
 /* ======= Header ========*/
 
