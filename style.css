@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /*overflow: hidden; */
 }
 
 ul {
@@ -21,8 +22,7 @@ img {
 /* ===== variaveis  */
 :root {
 
-  --title-font:'Manrope', sans-serif;
- 
+    --title-font:'Manrope', sans-serif;
     --backgrond: #000;
     --text-color: #FFF;
     --button: #8257E5;
@@ -87,16 +87,21 @@ section h1 {
 section.button {
   display: flex;
   justify-content: center;
-  margin: 5.5rem 1.68rem 6.125rem;
 }
 section.button a{
-  border: 1px solid #8257e5;
-  border-radius: 6px;
+  border: 2px solid #8257e5;
+  border-radius: 8px;
   padding: 0.6rem 1.85rem;
   color: white;
+  background-color: transparent;
+  text-transform: uppercase;
   font-family: var(--title-font);
   font-weight: 800;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
  }
  section.button img{
     width: 0.44rem;
@@ -105,10 +110,9 @@ section.button a{
  section.container {
    display: grid;
    justify-content: center;
-   margin: 5.5rem 1.68rem 6.125rem;
+   margin: 6.125rem 1.68rem 1.56rem;
 
- }
-
+}
  section.container h1.t1 {
 
   font-family: var(--title-font);
@@ -121,12 +125,13 @@ section.button a{
   font-size: 3.12rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--button);
+  letter-spacing: -0.03em;
  }
 
- section.cups img {
+ section div.cups {
+  width: 100%;
+  height: 100%;
  }
 
- footer img {
- }
 
 
