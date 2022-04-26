@@ -1,5 +1,9 @@
 # RocketCoffee
 Challenge Rocketseat - Front
 
-- Desenvolver aplicaçõe mobile first.
+- Desenvolver aplicação mobile first.
+
+- Com responsividade.
+
+Html, css e Javascript.
 
